@@ -17,4 +17,3 @@ jobs:
         server: listenwithheadphones.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        local-dir: public_html
