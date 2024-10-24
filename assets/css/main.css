@@ -6535,3 +6535,7 @@ padding-bottom: 10px;
     background: #FF4856;
   
 }
+
+.card-header h5{
+    color: #FF4856;
+}
