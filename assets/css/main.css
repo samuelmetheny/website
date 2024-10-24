@@ -6505,3 +6505,7 @@ input, textarea{
 
 
 }
+
+.card-body ul{
+    list-style: none;
+}
