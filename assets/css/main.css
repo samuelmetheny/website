@@ -6508,7 +6508,9 @@ input, textarea{
 
 .card-body ul{
     list-style: none;
+    padding-left: 0;
 }
+
 
 .card-body  li{
 padding-bottom: 10px;
