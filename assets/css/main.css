@@ -6515,3 +6515,9 @@ input, textarea{
 .card-body  li{
 padding-bottom: 10px;
 }
+
+.btn-outline-primary{
+    color: #FF4856;
+    border: 1px solid #FF4856;
+    padding: 10px 20px;
+}
