@@ -6525,3 +6525,13 @@ padding-bottom: 10px;
 .card {
     margin: 20px 0;
 }
+
+.card-body{
+    margin-bottom: 20px;
+}
+
+.btn-outline-primary:hover{
+    color: #fff;
+    background: #FF4856;
+  
+}
