@@ -6509,3 +6509,7 @@ input, textarea{
 .card-body ul{
     list-style: none;
 }
+
+.card-body  li{
+padding-bottom: 10px;
+}
