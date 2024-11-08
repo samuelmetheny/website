@@ -5326,8 +5326,8 @@ footer.type-4 .latest-album img{
 
 .members-1 .member img{
     width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
 }
 
 .members-1 .member:nth-child(even) {
