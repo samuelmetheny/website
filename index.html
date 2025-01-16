@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="assets/icon-fonts/remixicon/remixicon.css"/> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/js/mail.js"></script>
 </head>
 
 <body>
@@ -564,7 +566,8 @@
                         <div class="spacer-15"></div>
                         <div id="contact-formular" class="contact-form">
                             <div id="message"></div>
-                            <form name="contactform" id="contactform" class="row gx-5">
+                            <form id="contactform" method="post"  class="row gx-5">
+                                <input type="hidden" name="contact_number" value="697483">
                             <!-- message -->
                             <div class="col-xl-12">
                                 <textarea class="inp-text" name="comments" id="comments"  placeholder="Comment"></textarea>
