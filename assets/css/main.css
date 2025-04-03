@@ -292,7 +292,7 @@ body{
 }
 
 .preloader .numbers{
-    display: inline-block;
+    display: none;
 }
 
 .preloader .numbers .numbers-wrap{
